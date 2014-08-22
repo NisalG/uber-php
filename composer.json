@@ -1,0 +1,14 @@
+{
+   "config": {
+      "vendor-dir": "packages/"
+    },
+   "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/zeeshanejaz/unirest-php"
+        }
+    ],
+    "require": {
+        "zeeshanejaz/unirest-php" : "dev-master"
+    }
+}
