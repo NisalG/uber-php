@@ -5,10 +5,10 @@
    "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/zeeshanejaz/unirest-php"
+            "url": "https://github.com/apimatic/unirest-php"
         }
     ],
     "require": {
-        "zeeshanejaz/unirest-php" : "dev-master"
+        "apimatic/unirest-php" : "dev-master"
     }
 }

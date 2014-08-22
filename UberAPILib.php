@@ -16,7 +16,7 @@ if (!function_exists('mb_detect_encoding')) {
 }
 
 // This dependency shall be resolved by composer
-require_once('packages/zeeshanejaz/unirest-php/lib/Unirest.php');
+require_once('packages/apimatic/unirest-php/lib/Unirest.php');
 
 // APIMATIC Helper Files
 require_once(dirname(__FILE__) . '/UberAPILib/APIHelper.php');
