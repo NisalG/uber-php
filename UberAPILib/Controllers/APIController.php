@@ -30,7 +30,7 @@ class APIController {
         //prepare headers
         $headers = array (
             "accept" => "application/json",
-            "Authorization", sprintf("Bearer %1$s", Configuration.oAuthAccessToken)
+            "Authorization", sprintf("Bearer %1$s", Configuration::$oAuthAccessToken)
         );
 
         //prepare API request
@@ -109,7 +109,7 @@ class APIController {
         //prepare headers
         $headers = array (
             "accept" => "application/json",
-            "Authorization", sprintf("Bearer %1$s", Configuration.oAuthAccessToken)
+            "Authorization", sprintf("Bearer %1$s", Configuration::$oAuthAccessToken)
         );
 
         //prepare API request
@@ -188,7 +188,7 @@ class APIController {
         //prepare headers
         $headers = array (
             "accept" => "application/json",
-            "Authorization", sprintf("Bearer %1$s", Configuration.oAuthAccessToken)
+            "Authorization", sprintf("Bearer %1$s", Configuration::$oAuthAccessToken)
         );
 
         //prepare API request
@@ -261,7 +261,7 @@ class APIController {
         //prepare headers
         $headers = array (
             "accept" => "application/json",
-            "Authorization", sprintf("Bearer %1$s", Configuration.oAuthAccessToken)
+            "Authorization", sprintf("Bearer %1$s", Configuration::$oAuthAccessToken)
         );
 
         //prepare API request
@@ -324,7 +324,7 @@ class APIController {
         //prepare headers
         $headers = array (
             "accept" => "application/json",
-            "Authorization", sprintf("Bearer %1$s", Configuration.oAuthAccessToken)
+            "Authorization", sprintf("Bearer %1$s", Configuration::$oAuthAccessToken)
         );
 
         //prepare API request
